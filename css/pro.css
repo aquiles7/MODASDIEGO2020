@@ -1,0 +1,128 @@
+/* Estilo a al contenedor de filtros */
+.all {
+    width: 100%;
+    height: auto;
+}
+
+.all .icon_modal .icon {
+    display: block;
+    font-size: 30px;
+    color: #3fc7ba;
+    position: fixed;
+    z-index: 4;
+    background: #fff;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+    right: 10px;
+    margin-top: -25px;
+}
+
+.all .filtros {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background: #fff;;
+    z-index: 4;
+    bottom: 0;
+    border-top: 1px solid #c2c1c1;
+}
+
+.all .filtros .modal-content > p {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    color: #0b78ad;
+}
+
+.all .filtros .cont_filt {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.all .filtros .cont_filt p {
+    width: 150px;
+}
+
+
+
+
+
+
+
+
+/* Estilo a los contenedores de los productos */
+.list_pro {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pro {
+    text-align: center;
+    position: relative;
+    height: 350px;
+    border: 1px solid #c2c1c1;
+    width: 252px;
+    height: 410px;
+    overflow: hidden;
+    margin: 0 10px 10px 0;
+}
+
+.pro .img {
+    width: 250px;
+}
+
+.pro .img img {
+    width: 100%;
+}
+
+.pro .new {
+    margin: 8px 13px;
+    text-align: left;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009ee3;
+}
+
+.pro .info {
+    border-top: 1px solid #c2c1c1;
+    width: 90%;
+    margin-left: 13px;
+}
+
+.pro .name, .pro .color, .pro .now, .pro .past {
+    color: #000;
+    margin: 5px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.pro .name {
+    font-size: 14px;
+}
+
+.pro .color {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.pro .past {
+    color: #999;
+    font-size: 14px;
+}
+
+.pro .now {
+    color: #C00;
+    font-size: 15px;
+}

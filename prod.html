@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Modas Diego  | Productos</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=devise-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link href="img/logo_icon2.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <script src="js/all.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/materialize.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><!-- Compiled and minified JavaScript -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <script src="js/materialize.js"></script>
+
+    <script src="js/scrollTop.js"></script>
+
+    <script src="js/filtrar_img.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('.modal').modal({
+                inDuration: 1000,
+                outDuration: 3000,
+            });
+
+        });
+
+    </script>
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <header>
+
+        <div class="info">
+
+            <img src="img/Logo.png" alt="">
+
+
+
+            <div class="link">
+
+                <a>962-297-852 <span class="icon fab fa-whatsapp"></span></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="nav">
+
+            <ul class="menu" id="menu">
+                <div class="more left" id="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="us.html">Nosotros</a></li>
+                <li class="active"><a href="#">Productos</a></li>
+                <li class="des"><a href="contact.html">Contactenos</a></li>
+
+                <div class="more right" id="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+            </ul>
+
+        </div>
+
+    </header>
+    <script>
+        $(document).ready(function(){
+            var scroll = 0;
+            $('#left').click(function(){
+                scroll -= 80;
+                $('#menu').scrollLeft(scroll);
+            });
+
+            $('#right').click(function(){
+                scroll += 80;
+                $('#menu').scrollLeft(scroll);
+            });
+        })
+    </script>
+
+
+
+    <div class="next all">
+
+        <div class="icon_modal">
+
+            <a class="modal-trigger" href="#modal1"><i class="icon fas fa-plus-circle"></i></a>
+
+        </div>
+
+        <div class="filtros modal bottom-sheet" id="modal1">
+
+            <div class="modal-content">
+
+                <p>Filtros más populares</p>
+
+                <div class="cont_filt">
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="pantalon" checked>
+                            <span>Pantalón</span>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="camisa" checked>
+                            <span>Camisa</span>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="buzo" checked>
+                            <span>Buzo</span>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="short" checked>
+                            <span>Short</span>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="zapatilla" checked>
+                            <span>Zapatilla</span>
+                        </label>
+                    </p>
+
+
+                    <p>
+                        <label>
+                            <input type="checkbox" value="polera" checked>
+                            <span>Polera</span>
+                        </label>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="list_pro">
+
+        <div class="pro" category="pantalon">
+
+            <div class="img"><img src="img/man/buzo_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Pantalon</div>
+                <div class="color">crema</div>
+                <div class="past">Antes: s/. 129.00</div>
+                <div class="now">Ahora: s/. 119.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="pantalon">
+
+            <div class="img"><img src="img/man/buzo_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Pantalon</div>
+                <div class="color">Negro y gris</div>
+                <div class="past">Antes: s/. 149.00</div>
+                <div class="now">Ahora: s/. 139.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="pantalon">
+
+            <div class="img"><img src="img/man/buzo_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Pantalon</div>
+                <div class="color">Azul</div>
+                <div class="past">Antes: s/. 220.00</div>
+                <div class="now">Ahora: s/. 219.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="pantalon">
+
+            <div class="img"><img src="img/man/buzo_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Pantalon</div>
+                <div class="color">Griss</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="camisa">
+
+            <div class="img"><img src="img/man/camisa_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Camisa</div>
+                <div class="color">Griss</div>
+                <div class="past">Antes: s/. 79.00</div>
+                <div class="now">Ahora: s/. 78.90</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="camisa">
+
+            <div class="img"><img src="img/man/camisa_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Camisa</div>
+                <div class="color">Colorido </div>
+                <div class="past">Antes: s/. 129.00</div>
+                <div class="now">Ahora: s/. 110.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="camisa">
+
+            <div class="img"><img src="img/man/camisa_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Camisa</div>
+                <div class="color">Azul y Celeste</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="camisa">
+
+            <div class="img"><img src="img/man/camisa_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Griss</div>
+                <div class="color">Negro</div>
+                <div class="past">Antes: s/. 199.00</div>
+                <div class="now">Ahora: s/. 179.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="buzo">
+
+            <div class="img"><img src="img/man/pantalon_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Jean </div>
+                <div class="color">gris oscuro</div>
+                <div class="past">Antes: s/. 399.00</div>
+                <div class="now">Ahora: s/. 379.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="buzo">
+
+            <div class="img"><img src="img/man/pantalon_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Jean</div>
+                <div class="color">Azul</div>
+                <div class="past">Antes: s/. 299.00</div>
+                <div class="now">Ahora: s/. 289.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="buzo">
+
+            <div class="img"><img src="img/man/pantalon_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Jean</div>
+                <div class="color">griss claro</div>
+                <div class="past">Antes: s/. 199.00</div>
+                <div class="now">Ahora: s/. 179.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="buzo">
+
+            <div class="img"><img src="img/man/pantalon_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Buzo</div>
+                <div class="color">Negro</div>
+                <div class="past">Antes: s/. 299.00</div>
+                <div class="now">Ahora: s/. 279.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="polera">
+
+            <div class="img"><img src="img/man/polera_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Polera</div>
+                <div class="color">Negro y griss</div>
+                <div class="past">Antes: s/. 199.00</div>
+                <div class="now">Ahora: s/. 169.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="polera">
+
+            <div class="img"><img src="img/man/polera_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Polera</div>
+                <div class="color">Negro</div>
+                <div class="past">Antes: s/. 259.00</div>
+                <div class="now">Ahora: s/. 249.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="polera">
+
+            <div class="img"><img src="img/man/polera_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Polera</div>
+                <div class="color">Negro y griss</div>
+                <div class="past">Antes: s/. 299.00</div>
+                <div class="now">Ahora: s/. 279.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="polera">
+
+            <div class="img"><img src="img/man/polera_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Polera</div>
+                <div class="color"> Azul y celeste</div>
+                <div class="past">Antes: s/. 199.00</div>
+                <div class="now">Ahora: s/. 179.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="short">
+
+            <div class="img"><img src="img/man/short_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Short</div>
+                <div class="color">Negro</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="short">
+
+            <div class="img"><img src="img/man/short_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Short</div>
+                <div class="color">Crema</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="short">
+
+            <div class="img"><img src="img/man/short_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Short</div>
+                <div class="color">Maroon</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="short">
+
+            <div class="img"><img src="img/man/short_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Short</div>
+                <div class="color">Azul</div>
+                <div class="past">Antes: s/. 99.00</div>
+                <div class="now">Ahora: s/. 79.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="zapatilla">
+
+            <div class="img"><img src="img/man/zapatilla_1.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Zapatilla</div>
+                <div class="color">Crema</div>
+                <div class="past">Antes: s/. 299.00</div>
+                <div class="now">Ahora: s/. 719.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="zapatilla">
+
+            <div class="img"><img src="img/man/zapatilla_2.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Zapatilla</div>
+                <div class="color">Azul</div>
+                <div class="past">Antes: s/. 399.00</div>
+                <div class="now">Ahora: s/. 379.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="zapatilla">
+
+            <div class="img"><img src="img/man/zapatilla_3.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Zapatilla</div>
+                <div class="color">Celeste</div>
+                <div class="past">Antes: s/. 299.00</div>
+                <div class="now">Ahora: s/. 279.00</div>
+
+            </div>
+
+        </div>
+
+        <div class="pro" category="zapatilla">
+
+            <div class="img"><img src="img/man/zapatilla_4.jpg" alt=""></div>
+            <div class="new">New Arrival!</div>
+
+            <div class="info">
+
+                <div class="name">Zapatilla</div>
+                <div class="color">Negro</div>
+                <div class="past">Antes: s/. 399.00</div>
+                <div class="now">Ahora: s/. 379.00</div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <button id="btn_top"><i class="icon fas fa-arrow-alt-circle-up"></i></button>
+
+
+
+    <footer>
+
+        <p class="notice">Estimado cliente, si tiene alguna duda o desea realizar compras al por mayor, por favor comuniquese al número 01(4595152) anexo 256 en horario de 9:00 a.m a 6:00 p.m o al e-mail servicio al ilda7552@gmail.com</p>
+
+        <p class="right">© Modas Diego  - 2019. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+.wrapper {
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.wrapper .contact-form {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,.13);
+    border: 1px solid rgba(66, 139, 202, 0.65);
+}
+
+.wrapper .input-fields {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+
+.wrapper .input-fields, .wrapper .msg {
+    width: 48%;
+}
+
+.wrapper .input-fields .input, .wrapper .msg textarea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #428bca;
+    padding: 10px;
+    color: #7b7b7b;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.wrapper .msg textarea {
+    min-height: 201px;
+    max-height: 201px;
+}
+
+::-webkit-input-placeholder {
+    color: #7b7b7b;
+}
+
+::-moz-input-placeholder {
+    color: #7b7b7b;
+}
+
+::-ms-input-placeholder {
+    color: #7b7b7b;
+}
+
+.btn {
+    background: rgba(66, 139, 202);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .wrapper .contact-form {
+        flex-direction: column;
+    }
+    
+    .wrapper .msg textarea {
+        height: 80px;
+    }
+    
+    .wrapper .input-fields, .wrapper .msg {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* Ventana de errores */
+
+.modal_wrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_wrap .mensaje_modal {
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+
+.modal_wrap .mensaje_modal h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.modal_wrap .mensaje_modal h3:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #C5C5C5;
+    margin: 10px 0 15px;
+}
+
+.modal_wrap .mensaje_modal p {
+    font-size: 16px;
+    color: #606060;
+} 
+
+.modal_wrap .mensaje_modal p .icon {
+    color: #E25151;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.modal_wrap .mensaje_modal #btnClose {
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+    
+    background: #E25151;
+    color: #fff;
+    border: 2px solid #B14141;
+    cursor: pointer;
+    
+    float: right;
+}

@@ -1,0 +1,40 @@
+.ab_us {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.ab_us .info {
+    padding: 30px;
+    width: 100%;
+}
+
+.ab_us .info .titulo {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.ab_us .info .descrip {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ab_us .info .descrip p {
+    margin: 0 0 10px;
+    font-size: 15px;
+    color: #333;
+}

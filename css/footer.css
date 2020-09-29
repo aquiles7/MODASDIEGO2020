@@ -1,0 +1,23 @@
+footer {
+    width: 100%;
+    height: auto;
+    background: #EEE;
+    padding-top: 20px;
+}
+
+footer .notice {
+    width: 100%;
+    background: #DDD;
+    padding: 10px;
+    font-family: "Roboto Condensed";
+    color: #666;
+    text-align: center;
+}
+
+footer .right {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+    line-height: 80px;
+    text-align: center;
+}

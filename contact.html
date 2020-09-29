@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Modas Diego | Contactenos</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=devise-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link href="img/logo_icon2.png" rel="shortcut icon" type="image/x-icon" />
+
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <script src="js/all.js"></script>
+
+    <script src="js/form.js"></script>
+
+    <script src="js/scrollTop.js"></script>
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <header>
+
+        <div class="info">
+
+            <img src="img/Logo.png" alt="">
+
+
+
+            <div class="link">
+
+                <a>962-297-852 <span class="icon fab fa-whatsapp"></span></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="nav">
+
+            <ul class="menu" id="menu">
+                <div class="more left" id="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+                
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="us.html">Nosotros</a></li>
+                <li><a href="prod.html">Productos</a></li>
+                <li class="active"><a href="#">Contactenos</a></li>
+                
+                <div class="more right" id="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+            </ul>
+
+        </div>
+
+    </header>
+    <script>
+        $(document).ready(function(){
+            var scroll = 0;
+            $('#left').click(function(){
+                scroll -= 80;
+                $('#menu').scrollLeft(scroll);
+            });
+
+            $('#right').click(function(){
+                scroll += 80;
+                $('#menu').scrollLeft(scroll);
+            });
+        })
+    </script>
+
+
+
+    <div class="next wrapper">
+
+        <form class="contact-form" action="php/enviar.php" method="post" onsubmit="return">
+
+            <div class="input-fields">
+                <input type="text" class="input" placeholder="Nombre" name="nombre" id="nombre" >
+                <input type="text" class="input" placeholder="Dirección Electrónica" name="direccion" id="direccion" >
+                <input type="text" class="input" placeholder="Telefono" name="telefono" id="telefono" >
+                <input type="text" class="input" placeholder="Asunto" name="asunto" id="asunto" >
+            </div>
+
+            <div class="msg">
+                <textarea placeholder="Mensaje" name="mensaje" id="mensaje" ></textarea>
+                <input type="submit" class="btn" id="btnSend">
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+    <button id="btn_top"><i class="icon fas fa-arrow-alt-circle-up"></i></button>
+
+
+
+    <footer>
+
+        <p class="notice">Estimado cliente, si tiene alguna duda o desea realizar compras al por mayor, por favor comuniquese al número 01(4595152) anexo 256 en horario de 9:00 a.m a 6:00 p.m o al e-mail servicio al ilda7552@gmail.com</p>
+
+        <p class="right">© Modas Diego - 2019. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body></html>

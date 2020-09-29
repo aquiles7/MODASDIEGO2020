@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Modas Diego | Home</title>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=devise-width, user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <link href="img/logo_icon2.png" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+
+    <script src="js/all.js"></script>
+
+    <script src="js/jquery.nivo.slider.js"></script>
+
+    <script src="js/scrollTop.js"></script>
+
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#testimonial-slider").owlCarousel({
+                items: 5,
+                itemsDesktop: [1000, 5],
+                itemsDesktopSmall: [979, 2],
+                itemsTablet: [768, 2],
+                itemsMobile: [650, 1],
+                pagination: true,
+                autoPlay: true
+            });
+        });
+
+    </script>
+
+</head>
+
+
+
+
+
+
+<body>
+
+    <header>
+
+        <div class="info">
+
+            <img src="img/Logo.png" alt="">
+
+
+
+            <div class="link">
+
+                <a>962-297-852 <span class="icon fab fa-whatsapp"></span></a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="nav">
+
+            <ul class="menu" id="menu">
+                <div class="more left" id="left">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="us.html">Nosotros</a></li>
+                <li><a href="prod.html">Productos</a></li>
+                <li class="des"><a href="contact.html">Contactenos</a></li>
+
+                <div class="more right" id="right">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+
+            </ul>
+
+        </div>
+
+    </header>
+    <script>
+        $(document).ready(function(){
+            var scroll = 0;
+            $('#left').click(function(){
+                scroll -= 80;
+                $('#menu').scrollLeft(scroll);
+            });
+
+            $('#right').click(function(){
+                scroll += 80;
+                $('#menu').scrollLeft(scroll);
+            });
+        })
+    </script>
+
+
+
+    <div class="next slider-wrapper theme-mi-slider">
+
+        <div id="slider" class="nivoSlider">
+
+            <img src="img/slider_1.jpg" alt="">
+            <img src="img/slider_2.jpg" alt="">
+            <img src="img/slider_3.jpg" alt="">
+            <img src="img/slider_4.jpg" alt="">
+            <img src="img/slider_5.jpg" alt="">
+            <img src="img/slider_6.jpg" alt="">
+            <img src="img/slider_7.jpg" alt="">
+            <img src="img/slider_8.jpg" alt="">
+            <img src="img/slider_9.jpg" alt="">
+
+        </div>
+
+    </div>
+
+
+
+    <div class="demo">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12">
+
+                    <div id="testimonial-slider" class="owl-carousel">
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_1.jpg" alt=""></div>
+                            <div class="new">New Arrival!</div>
+
+                            <div class="info">
+
+                                <div class="name">Zapatilla</div>
+                                <div class="color">Negro</div>
+                                <div class="past">Antes: s/. 99.00</div>
+                                <div class="now">Ahora: s/. 79.00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_2.jpg" alt=""></div>
+                            <div class="new">exclusivo!</div>
+
+                            <div class="info">
+
+                                <div class="name">Billetera</div>
+                                <div class="color">Diseño soldado</div>
+                                <div class="past">Antes: s/. 60.00</div>
+                                <div class="now">Ahora: s/. 58.00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_3.jpg" alt=""></div>
+                            <div class="new">New Arrival!</div>
+
+                            <div class="info">
+
+                                <div class="name">Bividi</div>
+                                <div class="color">azul</div>
+                                <div class="past">Antes: s/. 129.00</div>
+                                <div class="now">Ahora: s/. 119.00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_4.jpg" alt=""></div>
+                            <div class="new">New Arrival!</div>
+
+                            <div class="info">
+
+                                <div class="name">Polo</div>
+                                <div class="color">Celeste y negro </div>
+                                <div class="past">Antes: s/. 60.00</div>
+                                <div class="now">Ahora: s/. 49.00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_5.jpg" alt=""></div>
+                            <div class="new">New Arrival!</div>
+
+                            <div class="info">
+
+                                <div class="name">Buzo</div>
+                                <div class="color">Mostaza</div>
+                                <div class="past">Antes: s/. 299 .00</div>
+                                <div class="now">Ahora: s/. 289 .00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_6.jpg" alt=""></div>
+                            <div class="new">New Arrival!</div>
+
+                            <div class="info">
+
+                                <div class="name">Chompa</div>
+                                <div class="color">Negro y plomo</div>
+                                <div class="past">Antes: s/. 199.00</div>
+                                <div class="now">Ahora: s/. 189.00</div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="testimonial">
+
+                            <div class="prod"><img src="img/pro_7.jpg" alt=""></div>
+                            <div class="new">Exclusivo por el dia del Gamer!</div>
+
+                            <div class="info">
+
+                                <div class="name">Polo</div>
+                                <div class="color">rojo</div>
+                                <div class="past">Antes: s/. 69.00</div>
+                                <div class="now">Ahora: s/. 59.00</div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <button id="btn_top"><i class="icon fas fa-arrow-alt-circle-up"></i></button>
+
+
+
+    <footer>
+
+        <p class="notice">Estimado cliente, si tiene alguna duda o desea realizar compras al por mayor, por favor comuniquese al número 01(4595152) anexo 256 en horario de 9:00 a.m a 6:00 p.m o al e-mail servicio al ilda7552@gmail.com</p>
+
+        <p class="right">© Modas Diego  - 2019. Todos los derechos reservados.</p>
+
+    </footer>
+
+</body>
+
+</html>
